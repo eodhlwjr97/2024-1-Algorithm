@@ -4,8 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class BJ_14439_자원캐기 {
-	static int R, C;
+    static int R, C;
     static int[][] arr, dp;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
